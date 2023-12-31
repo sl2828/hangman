@@ -144,6 +144,6 @@ while wrong_count < 6 and not correct:
 
 if wrong_count == 6:
     print(hangmans[6])
-    print(f"You lost! The word was {word}. Better luck next time!")
+    print(f'You lost! The word was "{word}." Better luck next time!')
 else:
-    print("Congratulations! You've guessed the word!")
+    print(f'Congratulations! You\'ve guessed the word "{word}"!')
